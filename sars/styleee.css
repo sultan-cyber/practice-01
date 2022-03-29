@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+ul li {
+  padding: 10px;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#0e582d), to(#4c29b4));
+  background-image: linear-gradient(to top, #0e582d, #4c29b4);
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+body {
+  background-color: blueviolet;
+  height: 100%;
+  background-size: cover;
+}
+
+.trans {
+  width: 50%;
+  margin: 10% 30%;
+  background-color: blue;
+  border-radius: 0;
+  padding: 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition-property: width, background-color, border-radius;
+  transition-property: width, background-color, border-radius;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  text-align: center;
+}
+
+.trans:hover {
+  width: 55%;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+/*# sourceMappingURL=styleee.css.map */
